@@ -72,8 +72,6 @@ int main(void)
 {
 
 	// Primitive variable
-	
-
 	float gameTime = 0;
 	int frames = 0;
 	int gameFPS = 0;
@@ -113,6 +111,8 @@ int main(void)
 
 	if(!display)
 		return -1;
+
+    al_set_window_position(display, 100, 100);
 
 	al_init_primitives_addon();
 	al_install_keyboard();
