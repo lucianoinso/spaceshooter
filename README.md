@@ -2,7 +2,8 @@ Install Allegro5 on Ubuntu
 ============================
 
 sudo apt update
-sudo apt-get install liballegro5-dev
+
+sudo apt install liballegro5-dev
 
 Compile
 ========
