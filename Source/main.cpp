@@ -14,7 +14,7 @@ const int HEIGHT = 400;
 const int NUM_BULLETS = 5;
 const int NUM_COMETS = 10;
 const int NUM_EXPLOSIONS = 5;
-const int SCORE_NEEDED_TO_WON = 100;
+const int SCORE_NEEDED_TO_WON = 2000;
 
 
 enum STATE{TITLE, PLAYING, LOST, WON};
